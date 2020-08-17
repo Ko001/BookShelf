@@ -5,7 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'bootstrap', '~> 5.0.0.alpha1'
+gem 'simple_form'
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sassc-rails', '>= 2.1.0'
 gem 'devise'
 gem 'devise-i18n'
 gem 'devise-bootstrap-views', '~> 1.0'
